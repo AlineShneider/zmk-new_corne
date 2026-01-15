@@ -1,53 +1,53 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
   QWERTY:
-  - A
-  - B
-  - C
-  - D
+  - Ctl+$$mdi:keyboard-esc$$
+  - Q
+  - W
   - E
-  - F
+  - R
+  - T
   - G
-  - G
-  - H
+  - Y
+  - U
   - I
-  - J
-  - K
-  - L
-  - M
-  - N
   - O
   - P
-  - Q
-  - R
+  - PAUSE BREAK
+  - $$mdi:backspace-reverse-outline$$
+  - A
+  - S
+  - D
+  - F
+  - G
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
-  - S
-  - T
-  - U
-  - V
-  - W
-  - X
-  - Y
+  - H
+  - J
+  - K
+  - L
+  - ':'
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:apple-keyboard-command$$
   - Z
-  - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
-  - {t: '4', s: $}
-  - $$mdi:keyboard-space$$
+  - X
+  - C
+  - V
+  - B
+  - VOLUME UP
   - $$mdi:arrow-down-bold$$
-  - {t: '5', s: '%'}
-  - {t: '6', s: ^}
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
-  - {t: '0', s: )}
-  - Sft+!
-  - Sft+@
-  - Sft+#
+  - N
+  - M
+  - {t: ',', s: <}
+  - .
+  - '?'
+  - $$mdi:apple-keyboard-control$$
+  - Sft+$$mdi:arrow-left-bold$$
+  - Sft+$$mdi:keyboard-space$$
+  - Sft+$$mdi:arrow-up-bold$$
   - Sft+$
-  - Sft+%
+  - Sft+$$mdi:keyboard-space$$
   - Sft+^
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
