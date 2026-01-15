@@ -46,7 +46,7 @@ layers:
   - Sft+$$mdi:arrow-left-bold$$
   - Sft+$$mdi:keyboard-space$$
   - Sft+$$mdi:arrow-up-bold$$
-  - Sft+$
+  - Sft+$$mdi:arrow-down-bold$$
   - Sft+$$mdi:keyboard-space$$
   - Sft+^
   NUMBER:
