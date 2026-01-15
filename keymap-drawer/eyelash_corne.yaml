@@ -46,7 +46,7 @@ layers:
   - Sft+$$mdi:arrow-left-bold$$
   - Sft+$$mdi:keyboard-space$$
   - Sft+$$mdi:arrow-up-bold$$
-  - Sft+$$mdi:arrow-down-bold$$
+  - {t: NUMBER, h: toggle}
   - Sft+$$mdi:keyboard-space$$
   - Sft+^
   NUMBER:
@@ -64,9 +64,9 @@ layers:
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
-  - BT CLR ALL
-  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
+  - '4'
+  - '5'
+  - '6'
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
@@ -79,10 +79,10 @@ layers:
   - HOME
   - PG UP
   - {t: '$$mdi:transfer$$', type: trans}
-  - RGB OFF
-  - RGB ON
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '7'
+  - '8'
+  - '9'
+  - '0'
   - RGB EFF
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
