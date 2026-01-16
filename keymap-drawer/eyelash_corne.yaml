@@ -14,7 +14,7 @@ layers:
   - O
   - P
   - PAUSE BREAK
-  - $$mdi:backspace-reverse-outline$$
+  - {t: \, s: '|'}
   - A
   - S
   - D
