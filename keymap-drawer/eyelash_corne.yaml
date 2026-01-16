@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
   QWERTY:
-  - Ctl+$$mdi:keyboard-esc$$
+  - $$mdi:keyboard-esc$$
   - Q
   - W
   - E
@@ -43,12 +43,12 @@ layers:
   - .
   - '?'
   - $$mdi:apple-keyboard-control$$
-  - Sft+$$mdi:arrow-left-bold$$
-  - Sft+$$mdi:keyboard-space$$
-  - Sft+$$mdi:arrow-up-bold$$
-  - {t: NUMBER, h: toggle}
-  - Sft+$$mdi:keyboard-space$$
-  - Sft+^
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:keyboard-space$$
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:keyboard-space$$
+  - $$mdi:arrow-right-bold$$
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
