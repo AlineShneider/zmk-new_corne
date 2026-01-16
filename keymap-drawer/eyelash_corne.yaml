@@ -14,7 +14,7 @@ layers:
   - O
   - P
   - PAUSE BREAK
-  - {t: \, s: '|'}
+  - $$mdi:apple-keyboard-caps$$
   - A
   - S
   - D
