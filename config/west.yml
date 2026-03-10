@@ -2,12 +2,12 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: h_m_m_v
-      url-base: https://github.com/hype-m-m-v
+    - name: joelspadin
+      url-base: https://github.com/joelspadin
   projects:
     - name: zmk
-      remote: h_m_m_v
-      revision: eyelash_corne
+      remote: joelspadin
+      revision: eyelash-corne
       import: app/west.yml
   self:
     path: config
