@@ -1,18 +1,13 @@
 manifest:
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
-      # Additional modules containing boards/shields/custom code can be listed here as well.
-      # See:
-      # - https://zmk.dev/docs/features/modules
-      # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
+      url_base: https://github.com/zmkfirmware
+    - name: h_m_m_v
+      url_base: https://github.com/hype-m-m-v
   projects:
-    - name: eyelash_corne
-      url: https://github.com/a741725193/zmk-new_corne
-      revision: main
     - name: zmk
-      remote: zmkfirmware
-      revision: v0.3.0
+      remote: h_m_m_v
+      revision: eyelash_corne
       import: app/west.yml
   self:
     path: config
