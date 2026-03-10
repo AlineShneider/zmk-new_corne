@@ -45,10 +45,10 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - LGUI
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-space$$', h: Fn}
-  - {t: '$$mdi:keyboard-return$$', h: Fn}
+  - {t: '$$mdi:arrow-up-bold$$', h: NUMBER}
+  - {t: '$$mdi:keyboard-return$$', h: SYMBOL}
   - $$mdi:keyboard-space$$
-  - $$mdi:apple-keyboard-option$$
+  - $$mdi:arrow-right-bold$$
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
@@ -94,7 +94,7 @@ layers:
   - PG DN
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - INS
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -144,7 +144,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-return$$', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   Fn:
@@ -192,8 +192,8 @@ layers:
   - PAUSE BREAK
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
