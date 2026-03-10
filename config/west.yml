@@ -1,9 +1,9 @@
 manifest:
   remotes:
     - name: zmkfirmware
-      url_base: https://github.com/zmkfirmware
+      url-base: https://github.com/zmkfirmware
     - name: h_m_m_v
-      url_base: https://github.com/hype-m-m-v
+      url-base: https://github.com/hype-m-m-v
   projects:
     - name: zmk
       remote: h_m_m_v
